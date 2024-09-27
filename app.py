@@ -23,6 +23,7 @@ from utils.text_to_audio import text_to_speech
 ## implement on chat resume if needed
 ## change the prompt responsible for the json and more keys
 
+# model initialization
 model = YOLO('models\monument_detection.pt', verbose=False)
 
 user_data = {key: None for key in questions}
