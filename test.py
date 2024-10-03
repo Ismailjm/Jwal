@@ -4,6 +4,7 @@ text = "how are you"
 
 # Detect the language
 language = detect(text)
+
 print(f"The detected language is: {language}")
 
 # Detect language probabilities
